@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="images/AAA.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Ayaan Ahmed Ammar || Front End Engineer</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="images/AAA.png" alt="Logo" class="me-2" style="width: 80px;"> 
+      </a>
+
+      <!-- Hamburger Button (Visible on small screens) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHeadNavbar" aria-controls="offcanvasHeadNavbar">
+        <span class="navbar-toggler-icon"><span class="" role="button" ><i class="fa fa-solid fa-bars" aria-hidden="true" style="color:#A0FF01"></i></span></span>
+      </button>
+
+      <!-- Offcanvas Menu (Visible on smaller screens) -->
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasHeadNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close">
+            
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1">
+            <li class="nav-item">
+              <a class="nav-link" href="#expertise">Expertise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="herobox">
+    <div class="hero-left">
+      <h2>Hey, I am Ayaan!</h2>
+      <h1>I create <span class="hero-green">elegant websites</span><br> and <span class="hero-green">web flows.</span></h1>
+      <a class="hero-btn" onclick="window.location.href='mailto:ayaanahmed006@outlook.com?subject=Subject Here&body=Email body here';" href="">Get In Touch</a>
+    </div>
+    <div class="hero-right">
+      <img class="bitmoji" src="images/bitmoji.png" alt="BITMOJI" width="273.56px" height="500px">
+    </div>
+  </div>
+  <div class="expertise" id="expertise">
+    <div class="expertise-head">
+      <h2>My Skills</h2>
+      <h1>My Expertise</h1>
+    </div>
+    <div class="expertise-cards">
+      <div class="e-card">
+          <div class="icon-container">
+              <span class="icon"><svg width="37" height="19" viewBox="0 0 37 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.14728 2.41488L0.54147 8.00599C-0.18049 8.72606 -0.18049 9.8918 0.54147 10.6119L6.06234 16.1183C6.78246 16.8365 7.9531 16.8365 8.67321 16.1183C9.39517 15.4 9.39517 14.2325 8.67321 13.5142L4.45778 9.30985L8.76 5.01891C9.48011 4.30068 9.48011 3.1331 8.76 2.41488C8.03804 1.69665 6.86924 1.69665 6.14728 2.41488ZM30.982 16.0943L36.4585 10.6321C37.1805 9.91206 37.1805 8.74632 36.4585 8.02809L30.849 2.43145C30.1289 1.71322 28.9583 1.71322 28.2382 2.43145C27.518 3.15152 27.518 4.31726 28.2382 5.03548L32.5422 9.33011L28.3711 13.4885C27.651 14.2085 27.651 15.3743 28.3711 16.0943C29.0912 16.8126 30.2619 16.8126 30.982 16.0943ZM19.2035 1.26019L14.2513 16.0759C13.9282 17.0391 14.4526 18.0833 15.4183 18.4055C16.3858 18.726 17.4328 18.2048 17.754 17.2398L22.7062 2.42409C23.0293 1.46092 22.5049 0.416733 21.5393 0.0944523C20.5717 -0.225987 19.5248 0.295188 19.2035 1.26019Z" fill="#222328"/>
+                </svg>
+                
+                </span>
+          </div>
+          <h3>Web Development</h2>
+          <p>
+            Skilled in designing and coding responsive, user-centric websites by leveraging HTML, CSS, and JavaScript. I ensure seamless functionality and aesthetics through modern frameworks, meticulous attention to detail, and continuous optimization.
+          </p>
+          <div class="highlight"></div>
+      </div>
+      <div class="e-card">
+        <div class="icon-container">
+            <span class="icon"><svg width="37" height="30" viewBox="0 0 37 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M36.8485 8.88644C30.3251 15.8822 23.0417 22.2476 16.3283 29.0543C13.9216 29.1173 10.8183 28.9912 8.4116 28.9282C5.68824 29.1173 2.96489 29.0543 0.241532 28.6761C-1.53181 27.3526 7.01825 27.8568 7.71492 27.9828C7.77826 25.714 7.77826 23.13 8.09493 20.9241C8.4116 19.5376 8.53826 21.4283 8.53826 22.5627V27.5417V28.0459C10.7549 28.1719 13.6683 28.0459 15.9483 28.0459C22.155 21.2392 29.3118 15.1889 35.5818 8.38225L35.2018 8.0041C33.4285 6.30244 30.2618 3.02517 28.3618 1.38654C25.4484 4.03356 13.035 16.2603 9.99494 19.1594C7.77826 21.2392 7.77826 20.546 9.48827 18.7813C15.505 12.4788 21.4584 6.30244 27.7284 0.315122C27.8551 0.189073 28.1084 0 28.2984 0C28.5518 0.0630244 28.8051 0.189073 28.9951 0.378147C31.0218 2.20585 34.0618 5.23103 36.0251 7.12176C36.3418 7.43688 36.9118 7.87805 36.9752 8.38225C37.0385 8.5083 36.9752 8.76039 36.8485 8.88644ZM31.1484 9.20156C25.9551 14.0544 21.205 19.3485 16.3917 24.5165C15.125 25.903 15.125 26.6593 16.835 24.9577C22.345 19.4745 27.8551 13.8654 33.4918 8.57132C33.6818 8.19317 33.4285 7.94108 33.1751 7.68898C32.8585 7.37386 32.2884 6.80664 31.9718 6.49151C31.2751 5.79825 29.8818 4.41171 29.1851 3.78146C28.8051 3.40332 28.2984 2.96215 27.8551 3.40332C21.965 9.39064 15.6317 15.2519 10.3116 21.6804C10.2483 22.7518 10.2483 24.4535 10.1849 25.5249C10.1849 25.84 10.1216 26.3442 10.6283 26.3442C10.8816 26.2812 16.7083 26.0921 14.8083 25.5879C10.1849 25.0837 10.9449 27.2265 11.1983 21.8695C16.7717 16.0082 22.5984 10.336 28.2984 4.66381C29.3751 5.73522 30.9584 7.24781 31.9718 8.31922C31.9718 8.44527 31.3384 9.07551 31.1484 9.20156Z" fill="black"/>
+              </svg>
+              </span>
+        </div>
+        <h3>UI/UX Design</h2>
+        <p>  
+          I approach UI/UX design by focusing on intuitive, user-friendly interfaces that prioritize accessibility and seamless navigation. Through user research, wireframing, and prototyping, I craft visually appealing designs that enhance the overall user experience.
+        </p>
+        <div class="highlight"></div>
+      </div>
+      <div class="e-card">
+        <div class="icon-container">
+            <span class="icon"><svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M36.6309 19.0474L29.6125 12.617L36.6309 6.96617C36.8258 6.96617 36.8258 6.77131 36.8258 6.77131C37.0208 6.3816 36.8258 5.79702 36.4359 5.40731L26.6881 0.146143C26.2982 -0.0487145 25.9083 -0.0487145 25.7134 0.146143L18.5 5.60216L11.2866 0.146143C10.8967 -0.0487145 10.5068 -0.0487145 10.3119 0.146143L0.564083 5.40731C0.369127 5.40731 0.369127 5.60216 0.369127 5.60216C-0.21574 5.79702 -0.020784 6.57645 0.369127 6.77131L7.38753 12.4222L0.369127 18.8525L0.174171 19.0474C-0.0207843 19.4371 0.174171 20.0216 0.564083 20.4114L7.77744 24.3085V29.18C7.77744 29.5697 7.9724 29.7645 8.16735 29.9594L17.9151 35.8051C18.1101 35.8051 18.305 36 18.5 36C18.695 36 18.8899 36 19.0849 35.8051L28.8326 29.9594C29.2226 29.7645 29.2226 29.3748 29.2226 29.18V24.3085L36.4359 20.4114L36.6309 20.2165C37.2157 20.0217 37.0208 19.4371 36.6309 19.0474ZM26.2982 1.89986L34.2914 6.18674L28.2478 11.4479L20.2546 6.77131L26.2982 1.89986ZM26.4932 12.617L18.5 17.8782L10.5068 12.617L18.5 7.94046L26.4932 12.617ZM2.70859 6.18674L10.7018 1.89986L16.9404 6.57645L8.75222 11.4479L2.70859 6.18674ZM2.70859 19.4371L8.94717 13.5913L16.9404 18.8525L10.7018 23.9188L2.70859 19.4371ZM27.273 28.9851L18.5 34.2463L9.727 28.9851V25.6725L10.3119 25.8674C10.3119 25.8674 10.5068 25.8674 10.7018 25.8674C10.8967 25.8674 11.0917 25.8674 11.2866 25.6725L18.5 20.0216L25.7134 25.6725C25.9083 25.8674 26.1033 25.8674 26.2982 25.8674C26.4932 25.8674 26.6881 25.8674 26.6881 25.6725L27.273 25.4777V28.9851ZM26.2982 23.9188L20.0596 19.0474L28.0528 13.7862L34.2914 19.6319L26.2982 23.9188Z" fill="black"/>
+              </svg>
+              
+            </span>
+        </div>
+        <h3>Branding & Logo</h2>
+        <p>
+          I create unique and memorable branding and logo designs that effectively represent a brand's identity. By combining creativity with strategic thinking, I ensure each design resonates with the target audience and communicates the brand's core values.
+        </p>
+        <div class="highlight"></div>
+      </div>
+      <div class="e-card">
+        <div class="icon-container">
+            <span class="icon"><svg width="34px" height="34px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M61.7 169.4l101.5 278C92.2 413 43.3 340.2 43.3 256c0-30.9 6.6-60.1 18.4-86.6zm337.9 75.9c0-26.3-9.4-44.5-17.5-58.7-10.8-17.5-20.9-32.4-20.9-49.9 0-19.6 14.8-37.8 35.7-37.8 .9 0 1.8 .1 2.8 .2-37.9-34.7-88.3-55.9-143.7-55.9-74.3 0-139.7 38.1-177.8 95.9 5 .2 9.7 .3 13.7 .3 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l77.5 230.4L249.8 247l-33.1-90.8c-11.5-.7-22.3-2-22.3-2-11.5-.7-10.1-18.2 1.3-17.5 0 0 35.1 2.7 56 2.7 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l76.9 228.7 21.2-70.9c9-29.4 16-50.5 16-68.7zm-139.9 29.3l-63.8 185.5c19.1 5.6 39.2 8.7 60.1 8.7 24.8 0 48.5-4.3 70.6-12.1-.6-.9-1.1-1.9-1.5-2.9l-65.4-179.2zm183-120.7c.9 6.8 1.4 14 1.4 21.9 0 21.6-4 45.8-16.2 76.2l-65 187.9C426.2 403 468.7 334.5 468.7 256c0-37-9.4-71.8-26-102.1zM504 256c0 136.8-111.3 248-248 248C119.2 504 8 392.7 8 256 8 119.2 119.2 8 256 8c136.7 0 248 111.2 248 248zm-11.4 0c0-130.5-106.2-236.6-236.6-236.6C125.5 19.4 19.4 125.5 19.4 256S125.6 492.6 256 492.6c130.5 0 236.6-106.1 236.6-236.6z"/></svg>
+              </span>
+        </div>
+        <h3>WordPress Development</h2>
+        <p>
+          I specialize in WordPress development, building responsive, custom websites with a focus on clean design and smooth functionality. By leveraging WordPress' powerful CMS and visual editor, I deliver scalable, user-friendly sites that are easy to manage and update.
+        </p>
+        <div class="highlight"></div>
+      </div>
+    </div>
+
+  </div>
+  <div class="about" id="about">
+    <div class="about-left">
+      <img class="bitmoji" src="images/bitmoji.png" alt="BITMOJI" width="273.56px" height="500px">
+    </div>
+    <div class="about-right">
+      <h2 class="about-sub">Who Am I?</h2>
+      <h1>About Me</h1>
+      <p>I am a skilled frontend web developer with hands-on experience in building and delivering 4+ dynamic, user-friendly websites. Recently, I earned the prestigious META: Front-End Developer Certification, solidifying my expertise in creating responsive designs and interactive interfaces. Passionate about coding and continuously honing my skills, I thrive on turning innovative ideas into functional and visually appealing web solutions.</p>
+    </div>
+  </div>
+  <div class="portfolio" id="portfolio">
+    <div class="portfolio-head">
+      <div class="portfolio-hd-left">
+        <h2>My Skills</h2>
+        <h1>My Expertise</h1>
+      </div>
+      <a class="portfolio-btn" href="https://www.linkedin.com/in/frontend--developer/">Visit My LinkedIn</a>
+    </div>
+    <div class="portfolio-grid">
+      <div class="portfolio-card">
+        <div class="portfolio-card__image">
+          <img src="images/paramount-medical-supplies.png" alt="Portfolio Example" class="portfolio-image">
+        </div>
+        <div class="portfolio-card__content">
+          <h1 class="portfolio-card__title">Paramount Medical Supplies</h1>
+          <p class="portfolio-card__description">I developed the Paramount Medical Supplies website, ensuring a responsive and user-friendly experience. The site showcases their products with seamless navigation across devices.</p>
+          <a href="https://paramountmedicalsupplies.com.pk" class="portfolio-card__link">View Website</a>
+        </div>
+      </div>
+      <div class="portfolio-card">
+        <div class="portfolio-card__image">
+          <img src="images/candlentic.png" alt="Portfolio Example">
+        </div>
+        <div class="portfolio-card__content">
+          <h1 class="portfolio-card__title">Candlentic</h1>
+          <p class="portfolio-card__description">I developed the Candlentic website, focusing on a clean, responsive design that enhances user experience. The site effectively displays their products with smooth navigation on all devices.</p>
+          <a href="#" class="portfolio-card__link">View Website</a>
+        </div>
+      </div>
+      <div class="portfolio-card">
+        <div class="portfolio-card__image">
+          <img src="images/altaam-foods.png" alt="Portfolio Example">
+        </div>
+        <div class="portfolio-card__content">
+          <h1 class="portfolio-card__title">Altaam Foods</h1>
+          <p class="portfolio-card__description">I developed the Altaam Foods website, combining modern design with smooth navigation to showcase their food products. The site offers an efficient and engaging user experience.</p>
+          <a href="#" class="portfolio-card__link">View Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="testimonials" id="testimonials">
+    <div class="testimonials-head">
+      <h2>Client's Feedback</h2>
+      <h1>Testimonials</h1>
+    </div>
+    <div class="testimonial-cards-grid">
+      <div class="testimonial-card">
+        <div class="stars">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+        </div>
+        <p class="testimonial-text">
+          We worked with Ayaan to create the website for Paramount Medical
+Supplies, and we are extremely pleased with the results. Ayaan
+delivered a professional, user-friendly, and visually appealing website
+that perfectly represents our brand.
+His attention to detail, clear communication, and commitment to
+deadlines made the entire process seamless. We highly recommend
+Ayaan to anyone looking for a skilled and reliable web developer!
+        </p>
+        <div class="author">
+          <img src="images/paramount_logo.png" alt="John Doe">
+          <div class="author-info">
+            <h4>PMS</h4>
+            <p>CEO Paramount Medical Supplies</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+        </div>
+        <p class="testimonial-text">
+          "We partnered with Ayaan to develop the website for Altaam Foods,
+          and the experience was exceptional. He created a modern, responsive,
+          and visually appealing site that perfectly captures our brand identity.
+          Ayaan's professionalism, attention to detail, and timely delivery
+          exceeded our expectations. We highly recommend his services to
+          anyone in need of a talented web developer!
+          "
+        </p>
+        <div class="author">
+          <img src="images/altaam-logo.png" alt="John Doe">
+          <div class="author-info">
+            <h4>POS Altaam Foods</h4>
+            <p>Altaam Foods</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#A0FF01" viewBox="0 0 24 24" width="20" height="20"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+        </div>
+        <p class="testimonial-text">
+          "Working with Ayaan on the Candlentic website was a fantastic
+          experience. He delivered a beautifully designed, responsive, and userfriendly platform that exceeded our expectations.
+          Ayaan’s ability to blend creativity with technical precision truly sets him
+          apart. We’re extremely happy with the results and would highly
+          recommend him to anyone seeking a professional and reliable web
+          developer!
+          "
+        </p>
+        <div class="author">
+          <img src="images/candlentic-logo.png" alt="John Doe">
+          <div class="author-info">
+            <h4>POS Candlentic</h4>
+            <p>Candlentic</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-head">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="images/AAA.png" alt="Logo" class="me-2" style="width: 80px;"> 
+          </a>
+    
+          <!-- Hamburger Button (Visible on small screens) -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"><span class="" role="button" ><i class="fa fa-solid fa-bars" aria-hidden="true" style="color:#A0FF01"></i></span></span>
+          </button>
+    
+          <!-- Offcanvas Menu (Visible on smaller screens) -->
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1">
+                <li class="nav-item">
+                  <a class="nav-link" href="#expertise">Expertise</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+              </ul>
+              <br>
+              <div class="d-flex justify-content-start gap-3 align-items-center">
+                <a href="https://www.linkedin.com/in/frontend--developer"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#a0ff01" d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
